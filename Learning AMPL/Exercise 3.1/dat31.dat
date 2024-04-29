@@ -1,0 +1,15 @@
+param: PLANTS: cap:= 
+	SAND 600
+	SEAT 350;
+	
+param: CUSTOMERS: demand:=
+	NEWY 325
+	CHIC 300
+	TOPE 275;
+	
+param distance:
+	     NEWY CHIC TOPE:=
+	SEAT 2500 1700 1800
+	SAND 2500 1800 1400;
+
+param cost:=90;
