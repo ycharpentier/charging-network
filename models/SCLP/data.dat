@@ -1,0 +1,16 @@
+set DEMAND_POINTS := J K L M N;
+set CANDIDATE_LOCATIONS := A B C D E;
+
+param a: A B C D E := # define matrix A
+	   J 1 1 0 0 0
+	   K 1 1 1 0 0
+	   L 0 1 0 1 0
+	   M 0 0 0 1 1
+	   N 0 1 1 1 1;
+
+param: c := # defines cost
+	A 200
+	B 300
+	C 50
+	D 100
+	E 10;
