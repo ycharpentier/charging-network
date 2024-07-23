@@ -1,0 +1,11 @@
+reset;
+
+model jointmodel1.mod;
+
+data data.dat;
+
+option solver cplex;
+
+solve;
+
+display x,y,s >Output.txt;
